@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13",
+    "simple-rc4": "^0.0.1-b",
+    "typescript": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.2.9"
+  },
+  "scripts": {
+    "c-w": "tsc --watch -p tsconfig.json",
+    "c": "tsc -p tsconfig.json"
+  }
+}
